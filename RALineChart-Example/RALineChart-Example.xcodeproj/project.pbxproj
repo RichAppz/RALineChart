@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7305182599E46000F12C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7305172599E46000F12C15 /* AppDelegate.swift */; };
+		CB73051A2599E46000F12C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7305192599E46000F12C15 /* SceneDelegate.swift */; };
+		CB73051C2599E46000F12C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73051B2599E46000F12C15 /* ViewController.swift */; };
+		CB73051F2599E46000F12C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB73051D2599E46000F12C15 /* Main.storyboard */; };
+		CB7305212599E46000F12C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7305202599E46000F12C15 /* Assets.xcassets */; };
+		CB7305242599E46000F12C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7305222599E46000F12C15 /* LaunchScreen.storyboard */; };
+		CB73052F2599E46100F12C15 /* RALineChart_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73052E2599E46100F12C15 /* RALineChart_ExampleTests.swift */; };
+		CB73053A2599E46100F12C15 /* RALineChart_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7305392599E46100F12C15 /* RALineChart_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB73052B2599E46100F12C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB73050C2599E46000F12C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7305132599E46000F12C15;
+			remoteInfo = "RALineChart-Example";
+		};
+		CB7305362599E46100F12C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB73050C2599E46000F12C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7305132599E46000F12C15;
+			remoteInfo = "RALineChart-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB7305142599E46000F12C15 /* RALineChart-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RALineChart-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7305172599E46000F12C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB7305192599E46000F12C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB73051B2599E46000F12C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB73051E2599E46000F12C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7305202599E46000F12C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7305232599E46000F12C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB7305252599E46000F12C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB73052A2599E46100F12C15 /* RALineChart-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RALineChart-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB73052E2599E46100F12C15 /* RALineChart_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RALineChart_ExampleTests.swift; sourceTree = "<group>"; };
+		CB7305302599E46100F12C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7305352599E46100F12C15 /* RALineChart-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RALineChart-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7305392599E46100F12C15 /* RALineChart_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RALineChart_ExampleUITests.swift; sourceTree = "<group>"; };
+		CB73053B2599E46100F12C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7305112599E46000F12C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305272599E46100F12C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305322599E46100F12C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB73050B2599E46000F12C15 = {
+			isa = PBXGroup;
+			children = (
+				CB7305162599E46000F12C15 /* RALineChart-Example */,
+				CB73052D2599E46100F12C15 /* RALineChart-ExampleTests */,
+				CB7305382599E46100F12C15 /* RALineChart-ExampleUITests */,
+				CB7305152599E46000F12C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7305152599E46000F12C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7305142599E46000F12C15 /* RALineChart-Example.app */,
+				CB73052A2599E46100F12C15 /* RALineChart-ExampleTests.xctest */,
+				CB7305352599E46100F12C15 /* RALineChart-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7305162599E46000F12C15 /* RALineChart-Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB7305172599E46000F12C15 /* AppDelegate.swift */,
+				CB7305192599E46000F12C15 /* SceneDelegate.swift */,
+				CB73051B2599E46000F12C15 /* ViewController.swift */,
+				CB73051D2599E46000F12C15 /* Main.storyboard */,
+				CB7305202599E46000F12C15 /* Assets.xcassets */,
+				CB7305222599E46000F12C15 /* LaunchScreen.storyboard */,
+				CB7305252599E46000F12C15 /* Info.plist */,
+			);
+			path = "RALineChart-Example";
+			sourceTree = "<group>";
+		};
+		CB73052D2599E46100F12C15 /* RALineChart-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB73052E2599E46100F12C15 /* RALineChart_ExampleTests.swift */,
+				CB7305302599E46100F12C15 /* Info.plist */,
+			);
+			path = "RALineChart-ExampleTests";
+			sourceTree = "<group>";
+		};
+		CB7305382599E46100F12C15 /* RALineChart-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7305392599E46100F12C15 /* RALineChart_ExampleUITests.swift */,
+				CB73053B2599E46100F12C15 /* Info.plist */,
+			);
+			path = "RALineChart-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7305132599E46000F12C15 /* RALineChart-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB73053E2599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-Example" */;
+			buildPhases = (
+				CB7305102599E46000F12C15 /* Sources */,
+				CB7305112599E46000F12C15 /* Frameworks */,
+				CB7305122599E46000F12C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RALineChart-Example";
+			productName = "RALineChart-Example";
+			productReference = CB7305142599E46000F12C15 /* RALineChart-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB7305292599E46100F12C15 /* RALineChart-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7305412599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-ExampleTests" */;
+			buildPhases = (
+				CB7305262599E46100F12C15 /* Sources */,
+				CB7305272599E46100F12C15 /* Frameworks */,
+				CB7305282599E46100F12C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB73052C2599E46100F12C15 /* PBXTargetDependency */,
+			);
+			name = "RALineChart-ExampleTests";
+			productName = "RALineChart-ExampleTests";
+			productReference = CB73052A2599E46100F12C15 /* RALineChart-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB7305342599E46100F12C15 /* RALineChart-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7305442599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-ExampleUITests" */;
+			buildPhases = (
+				CB7305312599E46100F12C15 /* Sources */,
+				CB7305322599E46100F12C15 /* Frameworks */,
+				CB7305332599E46100F12C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7305372599E46100F12C15 /* PBXTargetDependency */,
+			);
+			name = "RALineChart-ExampleUITests";
+			productName = "RALineChart-ExampleUITests";
+			productReference = CB7305352599E46100F12C15 /* RALineChart-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB73050C2599E46000F12C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CB7305132599E46000F12C15 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CB7305292599E46100F12C15 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CB7305132599E46000F12C15;
+					};
+					CB7305342599E46100F12C15 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CB7305132599E46000F12C15;
+					};
+				};
+			};
+			buildConfigurationList = CB73050F2599E46000F12C15 /* Build configuration list for PBXProject "RALineChart-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB73050B2599E46000F12C15;
+			productRefGroup = CB7305152599E46000F12C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7305132599E46000F12C15 /* RALineChart-Example */,
+				CB7305292599E46100F12C15 /* RALineChart-ExampleTests */,
+				CB7305342599E46100F12C15 /* RALineChart-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7305122599E46000F12C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7305242599E46000F12C15 /* LaunchScreen.storyboard in Resources */,
+				CB7305212599E46000F12C15 /* Assets.xcassets in Resources */,
+				CB73051F2599E46000F12C15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305282599E46100F12C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305332599E46100F12C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7305102599E46000F12C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB73051C2599E46000F12C15 /* ViewController.swift in Sources */,
+				CB7305182599E46000F12C15 /* AppDelegate.swift in Sources */,
+				CB73051A2599E46000F12C15 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305262599E46100F12C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB73052F2599E46100F12C15 /* RALineChart_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7305312599E46100F12C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB73053A2599E46100F12C15 /* RALineChart_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB73052C2599E46100F12C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7305132599E46000F12C15 /* RALineChart-Example */;
+			targetProxy = CB73052B2599E46100F12C15 /* PBXContainerItemProxy */;
+		};
+		CB7305372599E46100F12C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7305132599E46000F12C15 /* RALineChart-Example */;
+			targetProxy = CB7305362599E46100F12C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB73051D2599E46000F12C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB73051E2599E46000F12C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7305222599E46000F12C15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7305232599E46000F12C15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB73053C2599E46100F12C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB73053D2599E46100F12C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB73053F2599E46100F12C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB7305402599E46100F12C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB7305422599E46100F12C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RALineChart-Example.app/RALineChart-Example";
+			};
+			name = Debug;
+		};
+		CB7305432599E46100F12C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RALineChart-Example.app/RALineChart-Example";
+			};
+			name = Release;
+		};
+		CB7305452599E46100F12C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RALineChart-Example";
+			};
+			name = Debug;
+		};
+		CB7305462599E46100F12C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3VAW47988;
+				INFOPLIST_FILE = "RALineChart-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richappz.RALineChart-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RALineChart-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB73050F2599E46000F12C15 /* Build configuration list for PBXProject "RALineChart-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB73053C2599E46100F12C15 /* Debug */,
+				CB73053D2599E46100F12C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB73053E2599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB73053F2599E46100F12C15 /* Debug */,
+				CB7305402599E46100F12C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7305412599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7305422599E46100F12C15 /* Debug */,
+				CB7305432599E46100F12C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7305442599E46100F12C15 /* Build configuration list for PBXNativeTarget "RALineChart-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7305452599E46100F12C15 /* Debug */,
+				CB7305462599E46100F12C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB73050C2599E46000F12C15 /* Project object */;
+}
